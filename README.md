@@ -1,46 +1,88 @@
-# Getting Started with Create React App
+# Codeby Cart - React.Js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Conteúdo
 
-## Available Scripts
+- [Demo](#demo)
+- [Sobre](#about)
+- [Iniciando](#getting_started)
+- [Utilização](#usage)
+- [Autor](../CONTRIBUTING.md)
 
-In the project directory, you can run:
+### [DEMONSTRAÇÃO - VEJA NA PRÁTICA](https://mateuscarvalho.codecompany.app/codeby-cart/)
 
-### `yarn start`
+## Sobre <a name = "about"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este é um projeto de carrinho de compras para teste técnico na empresa [Codeby](https://codeby.com.br/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Algumas das habilidades utilizadas para demonstração técnica:
 
-### `yarn test`
+- React Hooks
+- Criação de hooks
+- Context Api
+- Reutilização de components
+- Consulta a API de produtos (JSON Disponibilizado pela própria empresa)
+- EsLint e Prettier padrão de código AirBnb
+- Root Import (Utilize ~/ para raiz do projeto, invés de ../../../)
+- Deploy em produção em VPS Linux com servidor NgInx
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Iniciando <a name = "getting_started"></a>
 
-### `yarn build`
+Estas instruções tem como objetivo auxiliar a rodar o projeto em sua máquina local (localhost) para ambiente de desenvolvimento e testes e não tem o objetivo de auxiliar no processo de deploy em produção.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Pré Requisitos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ferramentas que você precisa ter instaladas em seu computador para rodar este projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.Js v14.17.0
+- Npm v6.14.13
 
-### `yarn eject`
+### Instalação
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Clone este repositório em sua máquina local...
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+$ git clone https://github.com/mateuscarvalhodc01/codeby-cart.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Navegue até o diretório raiz do projeto e instale os pacotes Node
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Via NPM:
 
-## Learn More
+```
+$ npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Via Yarn:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+$ yarn install
+```
+
+PARA INICIAR O PROJETO:
+
+Via NPM:
+
+```
+$ npm run start
+```
+
+Via Yarn:
+
+```
+yarn start
+```
+
+
+### Parabéns! Você já pode começar a testar o app.
+Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
+
+A página vai recarregar automaticamente se você fizer mudanças.\
+Você também poderá ver os erros de lint no console.
+
+## Utilização <a name = "usage"></a>
+
+Este projeto tem como objetivo apenas apresentação técnica para o teste da empresa Codeby e como objeto de estudos para outros desenvolvedores. Nenhum dos dados e serviços oferecidos são reais.
+
+## Autor
+
+[@mateuscarvalhodc01](https://github.com/mateuscarvalhodc01)
