@@ -6,7 +6,7 @@ import GlobalStyle from './styles';
 
 function App(): JSX.Element {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/codeby-cart">
       <AppProvider>
         <GlobalStyle />
         <Routes />
